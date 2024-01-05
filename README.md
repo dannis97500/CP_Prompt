@@ -24,6 +24,6 @@ python main.py --config configs/prefix_one_prompt/domainnet.json >> logs/prefix_
 
 ## Acknowledgement
 
-Our source code and data processing are built heavily based on the code of Roland ([https://github.com/snap-stanford/roland](https://github.com/iamwangyabin/S-Prompts)).
+Our source code and data processing are built heavily based on the code of Roland ([https://github.com/iamwangyabin/S-Prompts]).
 
 The data set download address is provided in the paper.
