@@ -1,0 +1,67 @@
+{
+    "prefix": "prefix_one_prompt",
+    "dataset": "cddb",
+    "task_name": [
+        "gaugan",
+        "biggan",
+        "wild",
+        "whichfaceisreal",
+        "san"
+    ],
+    "data_path": "/home/aa/cp_prompt/data/CDDB/",
+    "multiclass": [
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "knn_k": 5,
+    "prefix_tuning": "keqv",
+    "is_fix_share_prompt": true,
+    "total_sessions": 5,
+    "memory_size": 0,
+    "memory_per_class": 0,
+    "fixed_memory": true,
+    "shuffle": false,
+    "init_cls": 2,
+    "increment": 2,
+    "model_name": "prefix_one_prompt",
+    "query_type": "vit_query",
+    "embd_dim": 768,
+    "share_prompt_length": 6,
+    "prefix_prompt_length": 10,
+    "prefix_prompt_layers": [
+        3,
+        5,
+        6,
+        7,
+        8
+    ],
+    "device": [
+        "0"
+    ],
+    "seed": [
+        1993
+    ],
+    "EPSILON": 1e-8,
+    "init_epoch": 50,
+    "init_lr": 0.01,
+    "init_milestones": [
+        20,
+        30,
+        40
+    ],
+    "init_lr_decay": 0.1,
+    "init_weight_decay": 0.0005,
+    "epochs": 50,
+    "lrate": 0.01,
+    "milestones": [
+        20,
+        30
+    ],
+    "lrate_decay": 0.1,
+    "batch_size": 128,
+    "weight_decay": 2e-4,
+    "num_workers": 16
+}
