@@ -1,4 +1,4 @@
-# CP-Prompt: Domain-Incremental Continual Learning with Composition-Based Prompting
+# CP-Prompt: Composition-Based Cross-modal Prompting for Domain-Incremental Continual Learning
 
 This repository is our PyTorch implementation of CP-Prompt.
 
